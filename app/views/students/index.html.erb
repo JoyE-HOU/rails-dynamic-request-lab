@@ -1,5 +1,5 @@
-<div>
+<h1>Student Index Page</h1>
+</br>
   <% @students.each do |student| %>
-    <div><%= student.first_name + " " + student.last_name %></div>
+    <%= student.first_name + " " + student.last_name %>
   <% end %>
-</div>
